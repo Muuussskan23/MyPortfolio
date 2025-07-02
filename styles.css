@@ -17,7 +17,7 @@
 }
 
 html {
-    font-size: 62.5;
+    font-size: 98%;
     overflow: auto;
 }
 
@@ -491,7 +491,7 @@ section:not(.home) {
 }
 
 .cert-container {
-    margin-top: 100px;
+    margin-top: 70px;
     display: flex;
     flex-wrap: wrap;
     gap: 1.4rem;
@@ -753,6 +753,19 @@ input[type="tel"] {
     right: 0;
   }
 
+  .btn {
+    display: inline-block;
+    padding: 0.9rem 1.4rem;
+    background-color: #2A2A40 ;
+    border-radius: 0.5rem;
+    box-shadow: none;
+    font-size: 1rem;
+    color: #fff;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    /*transition: 0.3s ease;*/
+  }
+
   .home {
     flex-direction: column;
   }
@@ -775,6 +788,9 @@ input[type="tel"] {
     flex-direction: column-reverse;
   }
 
+  .about h2{
+    font-size: 1.2rem;
+  }
   .about-img img {
     width: 60vw;
     margin-top: 4rem;
@@ -782,6 +798,16 @@ input[type="tel"] {
 
   .skills h2 {
     margin-bottom: 3rem;
+  }
+
+  .project-content h3,p{
+    font-size: 2rem;
+  }
+  .project-links{
+    font-size: 1.3rem;
+  }
+  .tags span{
+    font-size: 1.2rem;
   }
 }
 
@@ -815,7 +841,7 @@ input[type="tel"] {
 /* For mobile devices (below 768px) */
 @media (max-width: 768px) {
   html {
-    font-size: 50%;
+    font-size: 70%;
   }
 
   section {
